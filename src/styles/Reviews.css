@@ -1,0 +1,77 @@
+.information-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+.review {
+    width: 45rem;
+    /* line-height: 2rem; */
+    
+}
+.review h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    word-spacing: 0.5rem;
+    color: grey;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile span {
+    margin: 1rem;
+}
+.profile h3, h4 {
+    padding: 0;
+}
+.profile h4 {
+    font-weight: lighter;
+}
+.profile img {
+    border-radius: 50%;
+}
+.sample-big-image img {
+    border: 2px solid rgb(150, 186, 190);
+    border-radius: 2rem;
+}
+.information-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.previous-next button {
+    color: black;
+    border: 2px black solid;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.information .fulfilments {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.information .fulfilments h1 {
+    font-size: 2rem;
+    background: linear-gradient(135deg, #a74b8b 0%, #7b7bc1 25%, #a74b8b 100%);
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.information .fulfilments h3 {
+    font-weight: lighter;
+}
+.information .fulfilments button {
+    padding: 0 1rem 0 1rem;
+    margin: 1rem;
+    color: black;
+    background: rgba(128, 128, 128, 0.178);
+    width: 40%;
+    border-radius: 2rem;
+}

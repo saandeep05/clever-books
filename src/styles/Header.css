@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: #12121a;
+}
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+button {
+    background-color: transparent;
+    margin: 0;
+    padding: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+button:hover {
+    cursor: pointer;
+    color: rgb(192, 100, 100);
+}
+.talk-to-us {
+    border: 2px solid linear-gradient(135deg, #c97cb2 0%, #7b7bc1 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(135deg, #c97cb2 0%, #7b7bc1 100%);
+}
+.talk-to-us:hover {
+    color: black;
+    background: linear-gradient(225deg, #c97cb2 0%, #7b7bc1 100%);
+}
+.login {
+    background: linear-gradient(135deg, #c97cb2, #7b7bc1);
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+.login:hover {
+    background: white;
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
